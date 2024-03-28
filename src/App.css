@@ -3,7 +3,7 @@
   background-color: #000;
   color: #fff;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.963) 60%, rgba(33, 4, 4, 0.948) 100%);
-
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
 }
 
 li {
@@ -137,7 +137,7 @@ h2.role{
 
 @media only screen and (max-width: 1115px) {
   .about {
-    align-items: center; /* Center align items for smaller screens */
+    align-items: center;
     margin: 1rem;
     display: flex;
   }
@@ -149,32 +149,32 @@ h2.role{
 }
 
   .about img {
-    max-width: 50%; /* Make the image take the full width of the container */
-    border-radius: 1rem; /* Adjust the border-radius for smaller screens */
+    max-width: 50%; 
+    border-radius: 1rem; 
   }
 
   .about p {
-    text-align: left; /* Center align paragraph for smaller screens */
+    text-align: left; 
     margin-left: 0;
     font-size: small;
     max-width: 100%;
-    height: auto; /* Set height to auto for variable height */
-    overflow: hidden; /* Hide any overflow text */
-    overflow-y: auto; /* Enable vertical scroll if needed */
+    height: auto; 
+    overflow: hidden;
+    overflow-y: auto; 
   }
   
     .navbar {
     height: auto;
     min-height: 50px;
-    padding: 1rem; /* Increase padding for more space around the navbar */
-    z-index: 3; /* Ensure the navbar is on top */
+    padding: 1rem; 
+    z-index: 3; 
   }
 
   .nav-elements {
-    text-align: center; /* Center align text for smaller screens */
+    text-align: center; 
     display: flex;
     justify-content: center;
-    flex-wrap: nowrap; /* Ensure all items stay in a single row */
+    flex-wrap: nowrap; 
   }
 
 
@@ -199,25 +199,46 @@ h2.role{
 .frontend-container img {
   width: 2rem;
   height: 2rem;
+  margin-right: 10px;
+}
+.frontend-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap; 
 }
 .frontend-container li {
+  margin-right: 20px; 
+    margin-bottom: 10px; 
+    display: flex;
   text-align: left;
 }
 
 .backend-container{
   background-color: #ffffff0f;
   border-radius: 2rem;
-  padding: 2rem;
 }
 .backend-container h3 {
   text-align: center;
   font-size: 2rem;
 }
 .backend-container img {
+  margin-right: 10px;
   width: 3rem;
   height: 3rem;
 }
+.backend-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap; 
+}
 .backend-container li {
+  margin-right: 20px;
+    margin-bottom: 10px; 
+    display: flex;
   text-align: left;
 }
 
@@ -225,12 +246,12 @@ h2.role{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 4rem;
+  margin:4rem;
 }
 
 .frontend-container,
 .backend-container {
-  width: 42%;
+  width: 45%;
   
 }
 

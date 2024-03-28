@@ -38,33 +38,34 @@ export default function Skills({ skillsRef }) {
                     <div className="frontend-container">
                         <h3>Frontend Development</h3>
                         <ul>
-                    <img src="../essets/html1.png"/><li>HTML<br></br>
+                    <li><img src="../essets/html1.png"/>HTML<br></br>
                             Experienced</li>
-                    <img src="../essets/css1.png"/><li>CSS<br></br>
+                    <li><img src="../essets/css1.png"/>CSS<br></br>
                             Experienced</li>
-                    <img src="../essets/react.png"/><li>React<br></br>
+                    <li><img src="../essets/react.png"/>React<br></br>
                             Experienced</li>
                             
-                    <img src="../essets/reactnative.png"/><li>React Native<br></br>
+                    <li><img src="../essets/reactnative.png"/>React Native<br></br>
                             Intermediate</li>
-                    <img src="../essets/tailwind.png" /><li>TailwindCss<br></br>
+                    <li><img src="../essets/tailwind.png" />TailwindCss<br></br>
                             Basic</li>
                         </ul>
                     </div>
             <div className="backend-container">
                 <h3>Backend Development</h3>
                 <ul>
-                    <img src="../essets/nodejs.png"/><li>Node JS<br></br>
+                    <li><img src="../essets/nodejs.png"/>Node JS<br></br>
                         Experienced</li>
-                        <img src="../essets/express.png"/><li>Express JS<br></br>
+                    <li><img src="../essets/express.png"/>Express JS<br></br>
                         Experienced</li>
-                    <img src="../essets/git.png"/><li>Git<br></br>
+                    <li><img src="../essets/git.png"/>Git<br></br>
                         Experienced</li>
-                    <img src="../essets/psql.png"/><li>PostgreSQL<br></br>
+                        <p></p>
+                    <li><img src="../essets/psql.png"/>PostgreSQL<br></br>
                         Intermediete</li>
-                    <img src="../essets/mdb.png"/><li>MongoDB<br></br>
+                    <li><img src="../essets/mdb.png"/>MongoDB<br></br>
                         Basic</li>
-                    <img src="../essets/python.png"/><li>Pyhton<br></br>
+                    <li><img src="../essets/python.png"/>Pyhton<br></br>
                         Basic</li>
                 </ul>
             </div>
