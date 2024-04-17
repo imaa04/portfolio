@@ -59,25 +59,50 @@ const Projects = ({ projectRef }) => {
                 id: 1,
                 imageSrc: '../essets/project-images/pairsniper.png',
                 name: 'Pair Sniper',
-                link: 'https://github.com/imaa04'
+                link: 'https://github.com/imaa04',
+                language1: 'React', 
+                language2: 'Postgress',
+                language3: 'Node',
+                language4: 'Supabase',
+                language5: 'MUI',
+                language6: 'Tailwind',
+                language7: 'Render',
             },
             {
                 id: 2,
                 imageSrc: '../essets/project-images/clusterbooks.png',
                 name: 'Cluster Books',
-                link: 'https://github.com/imaa04/fe-book-swap'
+                link: 'https://github.com/imaa04/fe-book-swap',
+                language1: 'React Native',
+                language2: 'MongoDB',
+                language3: 'Node',
+                language4: 'Expo',
+                language5: 'WebSocket',
+                language6: 'Tailwind',
+                language7: 'Render',
             },
             {
                 id: 3,
                 imageSrc: '../essets/project-images/ncnews.png',
                 name: 'NC NEWS',
-                link: 'https://github.com/imaa04/fe-nc-news'
+                link: 'https://github.com/imaa04/fe-nc-news',
+                language1: 'React',
+                language2: 'Postgress',
+                language3: 'Node',
+                language4: 'Express',
+                language5: 'ElephantPSQL',
+                language6: 'CSS',
+                language7: 'Render',
             },
             {
                 id: 4,
                 imageSrc: '../essets/project-images/ticketmaster.png',
                 name: 'Ticket Master',
-                link: 'https://github.com/imaa04/fe-react-data-visualisation'
+                link: 'https://github.com/imaa04/fe-react-data-visualisation',
+                language1: 'React',
+                language2: 'TicketMaster API',
+                language3: 'CSS',
+                language4: 'Render',
             },
             
         ]
@@ -87,6 +112,13 @@ const Projects = ({ projectRef }) => {
                 name={item.name}
                 url={item.imageSrc}
                 link={item.link}
+                skill1={item.language1}
+                skill2={item.language2}
+                skill3={item.language3}
+                skill4={item.language4}
+                skill5={item.language5}
+                skill6={item.language6}
+                skill7={item.language7}
             />
         ))
     return (

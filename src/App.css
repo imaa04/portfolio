@@ -244,6 +244,11 @@ h2.role{
   object-fit: cover;
   border-radius: 10%;
 }
+.card ul li {
+  font-size: 0.5rem;
+  padding-left: 7px;
+  
+}
 
 .card button {
   border: none;
@@ -334,20 +339,20 @@ h2.role{
 
  .skills h2 {
   font-size: 2rem;
-  margin-top: 5.5rem; /* Adjust margin-top to bring the title closer */
-  margin-bottom: 0.5rem; /* Adjust margin-bottom to bring the title closer */
+  margin-top: 5.5rem; 
+  margin-bottom: 0.5rem; 
 }
 
 .skills-table {
   display: flex;
   flex-direction: column; 
   width: 90%;
-  margin-top: -0.5rem; /* Adjust margin-top to bring the table closer */
+  margin-top: -0.5rem; 
 }
 
 .skills-table h3 {
   font-size: 1rem;
-  margin-bottom: 0.5rem; /* Adjust margin-bottom to bring the table closer */
+  margin-bottom: 0.5rem; 
 }
 
 .skills-table li {
