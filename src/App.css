@@ -267,14 +267,14 @@ h2.role{
     height: auto; 
     min-height: auto;
     width: 100%; 
-    padding: 0.5rem 0; 
+    padding: 0rem 0; 
     justify-content: center; 
     align-items: center;
     text-align: center; 
   }
   .nav-elements {
     text-align: center; 
-    margin-top: 0.5rem; 
+    margin-top: 0.1rem; 
   }
   .nav-elements ul {
     padding: 0; 
@@ -309,7 +309,60 @@ h2.role{
     width: 2rem;
   }
 
-  
- 
+ .about {
+    align-items: center; 
+    margin: 2rem 0;
+    font-size: 1rem;
+  }
+  .about-title {
+    text-align: center;
+  }
+  .about img {
+    border-radius: 3rem; 
+    width: 20rem;
+  }
+  .about p {
+    text-align: center; 
+    margin: 1rem auto; 
+    max-width: 100%; 
+    font-size: 0.7rem;
+  }
+  .about-content {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+ .skills h2 {
+  font-size: 2rem;
+  margin-top: 5.5rem; /* Adjust margin-top to bring the title closer */
+  margin-bottom: 0.5rem; /* Adjust margin-bottom to bring the title closer */
+}
+
+.skills-table {
+  display: flex;
+  flex-direction: column; 
+  width: 90%;
+  margin-top: -0.5rem; /* Adjust margin-top to bring the table closer */
+}
+
+.skills-table h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem; /* Adjust margin-bottom to bring the table closer */
+}
+
+.skills-table li {
+  font-size: 0.6rem;
+}
+
+.skills-table li img {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.frontend-container,
+.backend-container {
+  width: 100%;
+  margin: 2px;
+}
 }
 

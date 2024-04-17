@@ -31,7 +31,7 @@ export default function Skills({ skillsRef }) {
 
     return (
         <section ref={skillsRef} className="skills" id="skills">
-                    <h2 ref={headlineRef} >
+                    <h2 ref={headlineRef} className="skills-title">
                         SKILLS
                     </h2>
                     <div className="skills-table">

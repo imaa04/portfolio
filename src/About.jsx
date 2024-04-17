@@ -31,6 +31,7 @@ export default function About({ aboutRef }) {
     return (
         <section ref={aboutRef} className="about" id="about">
             <div className="about-content">
+                
                 <img ref={headlineRef} src="../essets/imano1.JPG" alt="About Me" className="about-image" />
                 <div className="text-content">
                     <h2 ref={headlineRef} className="about-title">
