@@ -134,52 +134,7 @@ h2.role{
   align-items: center;
 }
 
-
-@media only screen and (max-width: 1115px) {
-  .about {
-    align-items: center;
-    margin: 1rem;
-    display: flex;
-  }
-
-  .about-title {
-  text-align: right;
-  margin-bottom: 0.5rem;
-  font-size: 1.5rem;
-}
-
-  .about img {
-    max-width: 50%; 
-    border-radius: 1rem; 
-  }
-
-  .about p {
-    text-align: left; 
-    margin-left: 0;
-    font-size: small;
-    max-width: 100%;
-    height: auto; 
-    overflow: hidden;
-    overflow-y: auto; 
-  }
-  
-    .navbar {
-    height: auto;
-    min-height: 50px;
-    padding: 1rem; 
-    z-index: 3; 
-  }
-
-  .nav-elements {
-    text-align: center; 
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap; 
-  }
-
-
-}
-  .icons {
+.icons {
   display: flex;
   justify-content: space-around;
   margin-right: 1rem;
@@ -283,7 +238,7 @@ h2.role{
   align-items: center;
 }
 .project-image {
-  width: 100%;
+  width: 16rem;
 
   height: 23rem;
   object-fit: cover;
@@ -306,5 +261,55 @@ h2.role{
   opacity: 0.7;
 }
 
+@media only screen and (max-width: 1000px) {
+  .navbar {
+    flex-direction: column;
+    height: auto; 
+    min-height: auto;
+    width: 100%; 
+    padding: 0.5rem 0; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center; 
+  }
+  .nav-elements {
+    text-align: center; 
+    margin-top: 0.5rem; 
+  }
+  .nav-elements ul {
+    padding: 0; 
+  }
+  .nav-elements ul li {
+    margin-bottom: 0.5rem; 
+    font-size: 7.9px;
+  }
 
+  .container{
+    margin-top: 4.5rem;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .container h1 {
+    font-size: 3.3rem;
+  }
+  .container h2 {
+    font-size: 1.3rem;
+  }
+  .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    padding-left: 3rem; 
+  }
+  .icons img{
+    width: 2rem;
+  }
+
+  
+ 
+}
 

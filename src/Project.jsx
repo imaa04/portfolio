@@ -57,34 +57,29 @@ const Projects = ({ projectRef }) => {
         const projectData = [
             {
                 id: 1,
+                imageSrc: '../essets/project-images/pairsniper.png',
+                name: 'Pair Sniper',
+                link: 'https://github.com/imaa04'
+            },
+            {
+                id: 2,
                 imageSrc: '../essets/project-images/clusterbooks.png',
                 name: 'Cluster Books',
                 link: 'https://github.com/imaa04/fe-book-swap'
             },
             {
-                id: 2,
+                id: 3,
                 imageSrc: '../essets/project-images/ncnews.png',
                 name: 'NC NEWS',
                 link: 'https://github.com/imaa04/fe-nc-news'
             },
             {
-                id: 3,
+                id: 4,
                 imageSrc: '../essets/project-images/ticketmaster.png',
                 name: 'Ticket Master',
                 link: 'https://github.com/imaa04/fe-react-data-visualisation'
             },
-            {
-                id: 4,
-                imageSrc: '../essets/project-images/blog.png',
-                name: 'Blog',
-                link: 'https://github.com/imaa04/fitness-blog'
-            },
-            {
-                id: 5,
-                imageSrc: '../essets/project-images/code.jpeg',
-                name: 'Python Monster',
-                link: 'https://github.com/imaa04/monster-game-python'
-            },
+            
         ]
 
         const project = projectData.map(item => (
