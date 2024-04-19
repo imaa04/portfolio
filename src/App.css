@@ -411,5 +411,14 @@ h2.role{
 .project-image{
   height: 21rem;
 }
+.hi{
+  font-size: 4rem;
+}
+.email{
+  font-size: 1rem;
+}
+.contact-details{
+  font-size: 1rem
+}
 }
 
