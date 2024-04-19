@@ -78,8 +78,11 @@ export default function NavBar() {
 
             <section ref={home} className="home" id="home">
 
-                <video src={video} autoPlay loop muted />
-
+                {/* <video src={video} autoPlay loop muted /> */}
+                <video autoPlay loop muted playsInline>
+                    <source src={video} type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
                 <div className="container">
 
                     <h1 ref={headlineRef} className="title">IMA KHAN </h1>
