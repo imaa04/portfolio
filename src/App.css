@@ -4,6 +4,7 @@
   color: #fff;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.963) 60%, rgba(33, 4, 4, 0.948) 100%);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+  
 }
 
 li {
@@ -43,7 +44,6 @@ section {
   place-items: center;
   height: 100vh;
   font-size: 32px;
-  font-weight: bold;
   scroll-snap-align: center;
   scroll-snap-stop: always;
 }
@@ -76,13 +76,13 @@ video{
 
 
 h1.title{
-  font-size: 70px;
-  font-weight: 900px;
+  font-size: 90px;
+  margin-top: 19rem;
 }
 
 h2.role{
   font-size: 50px;
-  font-weight: 700;
+  
 }
 
 .wrapper {
@@ -214,18 +214,17 @@ h2.role{
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 1rem;
 }
 .project-title{
   padding-top: 3rem;
 }
 
-.skills, .contact {
+.skills {
   display: grid;
   place-items: center;
   height: 100vh;
   font-size: 32px;
-  font-weight: bold;
+  
   scroll-snap-align: center;
   scroll-snap-stop: always;
 }
@@ -276,7 +275,29 @@ h2.role{
 .card button:hover {
   opacity: 0.7;
 }
-
+.contact{
+  justify-content: center;
+  text-align: center;
+}
+.hire {
+  font-size: 15px;
+  font-weight: 1;
+  padding-top: 5rem; /* Adjusted padding */
+}
+.hi {
+  font-size: 80px; /* Adjusted font size */
+  font-weight: 100;
+  margin-bottom: 0; /* Remove default margin */
+}
+.email{
+  font-size: 80px;
+}
+.contact-details {
+  padding-top: 3.5rem;
+  text-align: left;
+  margin-left: 5rem;
+  font-size: 30px;
+}
 @media only screen and (max-width: 1000px) {
   .navbar {
     flex-direction: column;
@@ -379,6 +400,16 @@ h2.role{
 .backend-container {
   width: 100%;
   margin: 2px;
+}
+
+.project-title{
+  font-size: 1rem;
+}
+.card{
+  justify-content: center;
+}
+.project-image{
+  height: 21rem;
 }
 }
 

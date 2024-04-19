@@ -4,7 +4,7 @@ import video from '../essets/bgvideo.mp4'
 import Typewriter from 'typewriter-effect';
 import About from "./About";
 import Skills from "./Skills";
-import {gsap} from 'gsap';
+import { gsap } from 'gsap';
 import { ScrollTrigger } from "gsap/all";
 import Project from "./Project";
 gsap.registerPlugin(ScrollTrigger)
@@ -25,18 +25,18 @@ export default function NavBar() {
         });
     };
 
-    const headlineRef= useRef();
-    useEffect(()=>{
+    const headlineRef = useRef();
+    useEffect(() => {
         gsap.fromTo(
             headlineRef.current,
             {
-                autoAlpha:0,
-                y:-70,
+                autoAlpha: 0,
+                y: -70,
             },
-            {   
-                y:0,
-                autoAlpha:1,
-                duration:1,
+            {
+                y: 0,
+                autoAlpha: 1,
+                duration: 1,
 
                 scrollTrigger: {
                     scroller: '.current',
@@ -56,11 +56,11 @@ export default function NavBar() {
 
                     <ul>
                         <li onClick={() => scrollToSection(home)} className="link">
-                                HOME
+                            HOME
                         </li>
-                            <li onClick={() => scrollToSection(about)} className="link">
-                                ABOUT
-                            </li>
+                        <li onClick={() => scrollToSection(about)} className="link">
+                            ABOUT
+                        </li>
                         <li onClick={() => scrollToSection(projects)} className="link">
                             PROJECTS
                         </li>
@@ -93,24 +93,41 @@ export default function NavBar() {
                         />
                     </h2>
                     <div className="icons">
-                    <a href="https://www.linkedin.com/in/ima-khan-801b532a1/" target='_blank'>
-                        <img src="../essets/lnicon.png" alt="linkend icon" />
-                    </a>
-                    <a href="https://github.com/imaa04" target='_blank'>
-                        <img src="../essets/githubicon.png" alt="github icon" />
-                    </a>
-                    <a href="mailto:imakhan.04@gmail.com" target='_blank'>
-                    <img src="../essets/gmail.png" alt="gmail icon" />
-                    </a>
-                   </div> 
+                        <a href="https://www.linkedin.com/in/ima-khan-801b532a1/" target='_blank'>
+                            <img src="../essets/lnicon.png" alt="linkend icon" />
+                        </a>
+                        <a href="https://github.com/imaa04" target='_blank'>
+                            <img src="../essets/githubicon.png" alt="github icon" />
+                        </a>
+                        <a href="mailto:imakhan.04@gmail.com" target='_blank'>
+                            <img src="../essets/gmail.png" alt="gmail icon" />
+                        </a>
+                    </div>
                 </div>
 
             </section>
             <About aboutRef={about} />
-            <Project projectRef={projects}/>
+            <Project projectRef={projects} />
             <Skills skillsRef={skills} />
             {/* <section ref={skills} className="skills" id="skills">SKILLS</section> */}
-            <section ref={contact} className="contact" id="contact">CONTACT ME</section>
+            <section ref={contact} className="contact" id="contact">
+                <div className="hire">
+                    <p>WANT TO HIRE ME/ WORK TOGETHER?</p>
+                </div>
+                <div className="hi">
+                    <h1>SAY HI!</h1>
+                </div>
+                <div className="email">
+                    <p>IMAKHAN.04@GMAIL.COM</p>
+                </div>
+
+                <div className="contact-details">
+                    <p>LinkedIn: Ima Khan <br />
+                        Github: imaa04</p>
+                </div>
+            </section>
+
+
         </>
     )
 }
