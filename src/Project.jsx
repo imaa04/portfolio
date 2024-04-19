@@ -58,7 +58,7 @@ const Projects = ({ projectRef }) => {
         const projectData = [
             {
                 id: 1,
-                imageSrc: '../essets/project-images/pairsniper.png',
+                imageSrc: './project-images/pairsniper.png',
                 name: 'Pair Sniper',
                 link: 'https://github.com/imaa04',
                 language1: 'React', 
@@ -71,7 +71,7 @@ const Projects = ({ projectRef }) => {
             },
             {
                 id: 2,
-                imageSrc: '../essets/project-images/clusterbooks.png',
+                imageSrc: './project-images/clusterbooks.png',
                 name: 'Cluster Books',
                 link: 'https://github.com/imaa04/fe-book-swap',
                 language1: 'React Native',
@@ -84,7 +84,7 @@ const Projects = ({ projectRef }) => {
             },
             {
                 id: 3,
-                imageSrc: '../essets/project-images/ncnews.png',
+                imageSrc: './project-images/ncnews.png',
                 name: 'NC NEWS',
                 link: 'https://github.com/imaa04/fe-nc-news',
                 language1: 'React',
@@ -97,7 +97,7 @@ const Projects = ({ projectRef }) => {
             },
             {
                 id: 4,
-                imageSrc: '../essets/project-images/ticketmaster.png',
+                imageSrc: './project-images/ticketmaster.png',
                 name: 'Ticket Master',
                 link: 'https://github.com/imaa04/fe-react-data-visualisation',
                 language1: 'React',

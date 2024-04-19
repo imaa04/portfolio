@@ -38,34 +38,34 @@ export default function Skills({ skillsRef }) {
                     <div className="frontend-container">
                         <h3>Frontend Development</h3>
                         <ul>
-                    <li><img src="../essets/html1.png"/>HTML<br></br>
+                        <li><img src=" https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />HTML<br></br>
                             Experienced</li>
-                    <li><img src="../essets/css1.png"/>CSS<br></br>
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />CSS<br></br>
                             Experienced</li>
-                    <li><img src="../essets/react.png"/>React<br></br>
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />React<br></br>
                             Experienced</li>
                             
-                    <li><img src="../essets/reactnative.png"/>React Native<br></br>
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />React Native<br></br>
                             Intermediate</li>
-                    <li><img src="../essets/tailwind.png" />TailwindCss<br></br>
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />TailwindCss<br></br>
                             Basic</li>
                         </ul>
                     </div>
             <div className="backend-container">
                 <h3>Backend Development</h3>
                 <ul>
-                    <li><img src="../essets/nodejs.png"/>Node JS<br></br>
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" />Node JS<br></br>
                         Experienced</li>
-                    <li><img src="../essets/express.png"/>Express JS<br></br>
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg" />Express JS<br></br>
                         Experienced</li>
-                    <li><img src="../essets/git.png"/>Git<br></br>
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />Git<br></br>
                         Experienced</li>
                         <p></p>
-                    <li><img src="../essets/psql.png"/>PostgreSQL<br></br>
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" />PostgreSQL<br></br>
                         Intermediete</li>
-                    <li><img src="../essets/mdb.png"/>MongoDB<br></br>
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" />MongoDB<br></br>
                         Basic</li>
-                    <li><img src="../essets/python.png"/>Pyhton<br></br>
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" />Pyhton<br></br>
                         Basic</li>
                 </ul>
             </div>

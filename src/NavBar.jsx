@@ -94,13 +94,13 @@ export default function NavBar() {
                     </h2>
                     <div className="icons">
                         <a href="https://www.linkedin.com/in/ima-khan-801b532a1/" target='_blank'>
-                            <img src="../essets/lnicon.png" alt="linkend icon" />
+                            <img src="./lnicon.png" alt="linkend icon" />
                         </a>
                         <a href="https://github.com/imaa04" target='_blank'>
-                            <img src="../essets/githubicon.png" alt="github icon" />
+                            <img src="./githubicon.png" alt="github icon" />
                         </a>
                         <a href="mailto:imakhan.04@gmail.com" target='_blank'>
-                            <img src="../essets/gmail.png" alt="gmail icon" />
+                            <img src="./gmail.png" alt="gmail icon" />
                         </a>
                     </div>
                 </div>
