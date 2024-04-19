@@ -8,7 +8,7 @@ export default function ProjectCards(props) {
             <a href={props.link} target="_blank">
                 <button>View on Github</button>
             </a>
-            <ul>
+            <ul className='project-skill'>
                 <li>{props.skill1}</li>
                 <li>{props.skill2}</li>
                 <li>{props.skill3}</li>

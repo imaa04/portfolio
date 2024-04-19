@@ -38,7 +38,8 @@ const Projects = ({ projectRef }) => {
         const responsive = {
             superLargeDesktop: {
                 breakpoint: { max: 3000, min: 1024 },
-                items: 4
+                items: 3,
+                lidesToSlide: 2,
             },
             desktop: {
                 breakpoint: { max: 1024, min: 800 },
