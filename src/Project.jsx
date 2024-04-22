@@ -37,7 +37,7 @@ const Projects = ({ projectRef }) => {
  
         const responsive = {
             superLargeDesktop: {
-                breakpoint: { max: 3000, min: 1024 },
+                breakpoint: { max: 4000, min: 1024 },
                 items: 3,
                 lidesToSlide: 2,
             },
@@ -128,7 +128,7 @@ const Projects = ({ projectRef }) => {
                 <h2 ref={headlineRef} className="project-title">
                 PROJECTS
             </h2>
-            <Carousel className="carousel" responsive={responsive}>
+            <Carousel responsive={responsive}>
                 {project}
             </Carousel>
         </section>

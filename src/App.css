@@ -216,7 +216,7 @@ h2.role{
   text-align: center;
 }
 .project-title{
-  padding-top: 3rem;
+  padding-top: 5rem;
 }
 
 .skills {
@@ -238,6 +238,7 @@ h2.role{
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 320px;
+  margin: 0 2rem;
   text-align: center;
   font-family: arial;
 }
@@ -401,16 +402,23 @@ h2.role{
   width: 100%;
   margin: 2px;
 }
+.project-image{
+  height: 15rem;
+  
+}
+.card{
+  width: auto; /* Adjust width to fit the content */
+  margin: 0rem;
+  width: 235px;
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
 
 .project-title{
   font-size: 1rem;
 }
-.card{
-  justify-content: center;
-}
-.project-image{
-  height: 21rem;
-}
+
+
 .hi{
   font-size: 4rem;
 }
