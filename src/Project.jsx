@@ -4,7 +4,7 @@ import { ScrollTrigger } from "gsap/all";
 import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
 import ProjectCards from "../components/ProjectCards";
-
+import pairsniperlogo from "/pairsniperlogo.svg";
 
 
 gsap.registerPlugin(ScrollTrigger)
@@ -58,7 +58,7 @@ const Projects = ({ projectRef }) => {
         const projectData = [
             {
                 id: 1,
-                imageSrc: './project-images/pairsniper.png',
+                imageSrc: pairsniperlogo,
                 name: 'Pair Sniper',
                 link: 'https://github.com/imaa04',
                 language1: 'React', 
